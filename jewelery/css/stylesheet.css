@@ -1,0 +1,276 @@
+body {
+    font-family: 'Lato','Droid Sans' !important;
+    font-size: 16px;
+}
+.navbar-custom {
+    font-family: 'Lato', 'Droid Sans' !important;
+}
+
+/*.container {*/
+    /*width: 1024px !important;*/
+/*}*/
+
+.subheading {
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h1.positioning {
+    font-weight: normal;
+}
+.navbar-custom .nav li a {
+    text-transform: none !important;
+}
+
+.pcolor {
+    color: #bdbdbd;
+    margin-bottom: 60px;
+}
+
+.pcolor:hover {
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+.positioning {
+    margin-top: 95px;
+}
+.site-heading span {
+    text-align: left;
+}
+.site-heading h2 {
+    text-align: left;
+}
+.site-heading a {
+    text-align: left;
+}
+.styleme1 {
+    border: 2px solid #C52D2F;
+}
+.styleme {
+    background-color: transparent !important;
+    border: 2px solid #bdbdbd;
+}
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFF;
+    background: #2E2E2E none repeat scroll 0% 0%;
+}
+
+.section-spacing {
+    margin-top: 50px;
+}
+
+.section-spacing2 {
+    margin-top: 50px;
+    background-color: #fafafa;
+}
+
+.section-spacing2 div {
+    padding-top: 20px;
+}
+
+#myCarousel {
+    background-color: #fafafa;
+}
+
+.pad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pad1 {
+    margin-top: 60px;
+}
+.carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control.left {
+    background-image: none !important;
+}
+
+.btn-slide {
+    padding: 8px 20px;
+    background: #C52D2F none repeat scroll 0% 0%;
+    color: #FFF;
+    border-radius: 2px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.btn-slide:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.heading-align {
+    margin-top: -85px;
+
+}
+
+.heading-align h1 {
+    font-size: 40px !important;
+}
+
+.margin-adjust {
+    text-align: center;
+}
+.img-resize img {
+    width: 112%;
+}
+
+.jewelery-align {
+    margin-left: 50px;
+    margin-top: 75px;
+}
+
+.pblog-align {
+    margin-top: 80px;
+}
+h1.text-uppercase {
+    margin-bottom: 80px;
+}
+.animation.animated-item-1 {
+    margin-top: 40px;
+}
+
+
+p {
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+span.pcolor {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.social-share {
+    list-style: outside none none;
+    padding-top: 20px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.social-share li {
+    display: inline;
+    padding: 10px;
+
+}
+.social-share li a {
+    color: #bdbdbd;
+}
+.adjust-ul {
+    list-style: outside none none;
+    text-align: left;
+    display: inline;
+    vertical-align: top;
+}
+
+.adjust-ul li {
+
+}
+.padjust {
+    margin-top:30px;
+}
+.slider-img img {
+    width: 80%;
+}
+
+a:hover {
+    color: #bdbdbd;
+}
+
+/*.fix {*/
+    /*margin-top: 255px;*/
+/*}*/
+
+/*
+**************************************************************************************
+media queries
+*************************************************************************************
+*/
+@media (max-width: 980px) {
+    .col-sm-offset-3 {
+        margin-left: 25% !important;
+    }
+    .fix {
+        margin-top: 25px;
+    }
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .img-resize img {
+        width: 188px;
+    }
+    footer {
+        text-align: center !important;
+    }
+    .adjust-ul {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-sm-offset-3 {
+        margin-left: 0% !important;
+    }
+    .fix {
+        margin-top: 75px;
+    }
+    .section-spacing {
+        text-align: center;
+    }
+    body {
+        font-size: 14px;
+    }
+    .jewelery-align {
+        margin-left: 0px;
+    }
+    p {
+        text-align: center;
+    }
+    .positioning {
+        margin-top: 0px;
+    }
+    .section-spacing2 div {
+        padding-top: 0px;
+    }
+    h1 {
+        font-size: 30px
+    }
+    .social {
+
+        text-align: center;
+    }
+    .social-share {
+        padding: 20px 10px;
+    }
+    footer {
+        text-align: center !important;
+    }
+    .adjust-ul {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .col-sm-offset-3 {
+        margin-left: 0%;
+    }
+}
+
+/*@media (min-width: 1200px) {*/
+    /*.container {*/
+        /*width: 1024px;*/
+    /*}*/
+/*}*/
